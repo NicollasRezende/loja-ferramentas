@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ferramentas XYZ - Qualidade e Tradição</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="XYZ Logo" />
+                <span>Ferramentas XYZ</span>
+            </div>
+            <nav class="side-nav">
+                <a href="#home" class="active"
+                    ><i class="fas fa-home"></i> Início</a
+                >
+                <a href="#produtos"><i class="fas fa-tools"></i> Produtos</a>
+                <a href="#servicos"><i class="fas fa-cogs"></i> Serviços</a>
+                <a href="#sobre"><i class="fas fa-building"></i> Sobre</a>
+                <a href="#depoimentos"
+                    ><i class="fas fa-comments"></i> Depoimentos</a
+                >
+                <a href="#contato"><i class="fas fa-envelope"></i> Contato</a>
+            </nav>
+            <button class="close-sidebar"><i class="fas fa-times"></i></button>
+        </div>
+
+        <!-- Conteúdo Principal -->
+        <main class="content">
+            <header>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar produtos..." />
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="header-actions">
+                    <a href="#" class="cart-icon"
+                        ><i class="fas fa-shopping-cart"></i><span>0</span></a
+                    >
+                    <a href="#" class="user-icon"
+                        ><i class="fas fa-user"></i
+                    ></a>
+                </div>
+            </header>
+
+            <!-- Hero Section -->
+            <section id="home">
+                <div class="hero">
+                    <h1 class="animate-up">Ferramentas Profissionais</h1>
+                    <p class="animate-up delay-1">
+                        Qualidade e tradição desde 1990
+                    </p>
+                    <div class="cta-buttons animate-up delay-2">
+                        <button class="primary">Explorar Produtos</button>
+                        <button class="secondary">Fale Conosco</button>
+                    </div>
+                </div>
+
+                <!-- Featured Categories -->
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <i class="fas fa-hammer"></i>
+                        <h3>Ferramentas Manuais</h3>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-plug"></i>
+                        <h3>Ferramentas Elétricas</h3>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-toolbox"></i>
+                        <h3>Kits Profissionais</h3>
+                    </div>
+                </div>
+            </section>
+
+<!-- Produtos -->
+<section id="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="carousel">
+        <button class="carousel-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Novo</div>
+                    <img src="produto1.jpg" alt="Kit Profissional" />
+                    <h3>Kit Profissional Premium</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">R$ 299,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Novo</div>
+                    <img src="produto2.jpg" alt="Furadeira Elétrica" />
+                    <h3>Furadeira Elétrica 500W</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="price">R$ 199,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Promoção</div>
+                    <img src="produto3.jpg" alt="Serra Circular" />
+                    <h3>Serra Circular 1400W</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">R$ 349,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Novo</div>
+                    <img src="produto4.jpg" alt="Parafusadeira" />
+                    <h3>Parafusadeira Sem Fio</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="price">R$ 249,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Promoção</div>
+                    <img src="produto5.jpg" alt="Jogo de Chaves" />
+                    <h3>Jogo de Chaves Completas</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">R$ 99,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Novo</div>
+                    <img src="produto6.jpg" alt="Alicate Universal" />
+                    <h3>Alicate Universal 8"</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="price">R$ 39,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="product-card">
+                    <div class="product-badge">Promoção</div>
+                    <img src="produto7.jpg" alt="Martelo de Borracha" />
+                    <h3>Martelo de Borracha</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="price">R$ 29,90</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</section>
+
+            <!-- Sobre -->
+            <section id="sobre">
+                <div class="grid-container">
+                    <div class="grid-item animate-left">
+                        <h2>Nossa História</h2>
+                        <p>
+                            Com mais de 30 anos de experiência, a Ferramentas
+                            XYZ se estabeleceu como líder no mercado de
+                            ferramentas profissionais, oferecendo produtos de
+                            alta qualidade e suporte técnico especializado.
+                        </p>
+                    </div>
+                    <div class="grid-item animate-right">
+                        <h2>Nossos Valores</h2>
+                        <ul class="values-list">
+                            <li>
+                                <i class="fas fa-check"></i> Qualidade garantida
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Atendimento
+                                excepcional
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Preços competitivos
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Suporte técnico
+                                especializado
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Depoimentos -->
+            <section id="depoimentos">
+                <h2>O que nossos clientes dizem</h2>
+                <div class="testimonials-container"></div>
+            </section>
+
+            <!-- Contato -->
+            <section id="contato">
+                <h2>Entre em Contato</h2>
+                <div class="contact-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> (11) 1234-5678</div>
+                        <div>
+                            <i class="fas fa-envelope"></i> contato@xyz.com
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i> São Paulo, SP
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <h3>Sobre Nós</h3>
+                        <p>
+                            Ferramentas XYZ - Sua parceira em ferramentas
+                            profissionais desde 1990.
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Links Rápidos</h3>
+                        <a href="#produtos">Produtos</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Redes Sociais</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        &copy; 2024 Ferramentas XYZ - Todos os direitos
+                        reservados
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
